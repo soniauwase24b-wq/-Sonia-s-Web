@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | My Website</title>
+    <!-- Font Awesome for Social Media Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <h2>Get In Touch</h2>
+            <p>We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+            
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <input type="submit" value="Send Message">
+            </form>
+            
+            <div class="contact-info">
+                <h3>Our Office</h3>
+                <p>Kiziba Health Center<br>Kiziba Refugee Camp, Rwanda<br>Email: uwasesonia454@keplercollege.ac.rw<br>Phone: (+250) 790 683 375</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <!-- Contacts Section -->
+            <div class="footer-section">
+                <h3>Contacts</h3>
+                <div class="contact-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>(+250) 790 683 375</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>uwasesonia454@keplercollege.ac.rw</span>
+                </div>
+            </div>
+
+            <!-- Our Location Section with Google Map -->
+            <div class="footer-section">
+                <h3>Our Location</h3>
+                <div class="map-container">
+                    <iframe 
+                        src="https://maps.google.com/maps?q=Kiziba+Refugee+Camp+Rwanda&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+                        width="100%" 
+                        height="200" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                    <p class="location-text">Kiziba Health Center, Kiziba Refugee Camp, Rwanda</p>
+                </div>
+            </div>
+
+            <!-- Follow Us Section with Real Social Media Icons -->
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.tiktok.com" target="_blank" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com" target="_blank" class="social-icon"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <!-- Write to Us Form -->
+            <div class="footer-section">
+                <h3>Write to Us</h3>
+                <form class="footer-form" action="#" method="post">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <select name="gender" required>
+                        <option value="">Select Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <textarea name="message" rows="3" placeholder="Your Message" required></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+        
+        <!-- Copyright Notice -->
+        <div class="copyright">
+            <p>&copy; 2024 My Website. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
